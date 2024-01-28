@@ -25,7 +25,7 @@ if(!isset($_SESSION['user_name'])){
     <div class="content">
         <h1><div id="welcome">Welcome </div><span><?php echo $_SESSION['user_name'] ?></span></h1>
         <p>this is an user page</p>
-        <a href="login.php" class="btncolor1">login</a>
+        <a href="categories.php" class="btncolor1">Get's Started</a>
         <a href="logout.php" class="btn">logout</a>
     </div>
 </div>

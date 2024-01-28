@@ -59,7 +59,7 @@ if(isset($_POST['submit'])){
         ?>
 
     <form action="" method="post">
-        <img type="logo1" src="img/logo1.jpg" />
+        <img type="logo1" src="images/logo1.jpg" />
         <input type="email" name="email" required placeholder="Enter your email">
         <input type="password" name="password" required placeholder="Enter your password">
         <input type="submit" name="submit" value="login now" class="form-btn">
