@@ -43,6 +43,7 @@ if(isset($_POST['submit'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer type="module"></script>
     <title>login form</title>
     
     <link rel="stylesheet" href="style.css">
@@ -65,6 +66,13 @@ if(isset($_POST['submit'])){
         <input type="submit" name="submit" value="login now" class="form-btn">
         <p>Don't have an account? <a href="register_form.php">Register now</a></p>
     </form>
+    <div class="input">
+         <button id="google-login-btn" class="form-btn">
+              <i type="submit" class="fab fa-google"></i> Login with Google
+
+         </button>
+
+    </div>
     
 </body>
 </html>
