@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Important to make website responsive -->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Website</title>
 
-    <!-- Link our CSS file -->
+    
     <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
-    <!-- Navbar Section Starts Here -->
+    
     <section class="navbar">
         <div class="container">
 
@@ -35,9 +35,9 @@
             <div class="clearfix"></div>
         </div>
     </section>
-    <!-- Navbar Section Ends Here -->
+    
 
-    <!-- fOOD sEARCH Section Starts Here -->
+    
     <section class="food-search">
         <div class="container">
             
@@ -48,12 +48,12 @@
                     <legend>Selected Food</legend>
 
                     <div class="food-menu-img">
-                        <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                        <img src="images/coke.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
                     </div>
     
                     <div class="food-menu-desc">
                         <h3>Food Title</h3>
-                        <p class="food-price">₱75</p>
+                        <p class="food-price">₱25</p>
 
                         <div class="order-label">Quantity</div>
                         <input type="number" name="qty" class="input-responsive" value="1" required>
@@ -83,7 +83,7 @@
 
         </div>
     </section>
-    <!-- fOOD sEARCH Section Ends Here -->
+    
 
 </body>
 </html>
