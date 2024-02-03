@@ -25,7 +25,7 @@ import { getAuth ,GoogleAuthProvider ,signInWithPopup } from "https://www.gstati
     const credential = GoogleAuthProvider.credentialFromResult(result);
     const user = result.user;
     console.log(user);
-    window.location.href = "foods.php";
+    window.location.href = "index.php";
 
   }).catch((error) => {
     const errorCode = error.code;
