@@ -41,6 +41,7 @@ if(isset($_POST['submit'])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="main.js" defer type="module"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="main.js" defer type="module"></script>
@@ -64,15 +65,16 @@ if(isset($_POST['submit'])){
         <input type="email" name="email" required placeholder="Enter your email">
         <input type="password" name="password" required placeholder="Enter your password">
         <input type="submit" name="submit" value="login now" class="form-btn">
-        <p>Don't have an account? <a href="register_form.php">Register now</a></p>
-    </form>
-    <div class="input">
+        <div class="input">
          <button id="google-login-btn" class="form-btn">
               <i type="submit" class="fab fa-google"></i> Login with Google
 
          </button>
 
     </div>
+        <p>Don't have an account? <a href="register_form.php">Register now</a></p>
+    </form>
+    
     
 </body>
 </html>
